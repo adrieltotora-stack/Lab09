@@ -1,3 +1,7 @@
+package com.example.lab09.network
+
+import com.example.lab09.model.UserModel
+import com.example.lab09.model.UsersResponse
 import retrofit2.http.GET
 import retrofit2.http.Path
 

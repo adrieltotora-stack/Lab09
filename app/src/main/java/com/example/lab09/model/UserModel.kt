@@ -1,3 +1,5 @@
+package com.example.lab09.model
+
 import com.google.gson.annotations.SerializedName
 
 data class UserModel(

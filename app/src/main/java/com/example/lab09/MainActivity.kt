@@ -1,3 +1,5 @@
+package com.example.lab09
+
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -11,6 +13,8 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavType
 import androidx.navigation.compose.*
 import androidx.navigation.navArgument
+import com.example.lab09.ui.theme.ScreenUserDetail
+import com.example.lab09.ui.theme.ScreenUsers
 import com.example.lab09.viewmodel.UserViewModel
 
 class MainActivity : ComponentActivity() {
